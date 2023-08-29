@@ -1,0 +1,46 @@
+.header{
+    
+    border-bottom:1px  rgb(53, 51, 51);
+    background-color: rgb(16, 33, 65);
+    /* background: linear-gradient(180deg, rgb(174, 99, 221) 9%, rgb(168, 77, 253) 100%); */
+    
+    
+}
+
+.navbar h1{
+    margin-left: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.list{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+    list-style: none;
+    
+    
+}
+.list a {
+    text-decoration: none;
+    color: white;
+}
+  
+.list a:hover,
+.list a.active {
+    color: rgb(206, 23, 99);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+
+
